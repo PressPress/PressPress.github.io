@@ -21,7 +21,11 @@
   <body>
 
 <!--background image -->
-    <img id="background-image" src="images/intro/background.png" width="100%">
+    <picture>
+      <source media="(max-width: 499px)" srcset="images/intro/background-mobile.png">
+      <source media="(min-width: 500px)" srcset="images/intro/background.png">
+      <img id="background-image" src="images/intro/background.png" width="100%">
+    </picture>
 
     <header>
 

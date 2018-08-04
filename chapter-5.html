@@ -22,7 +22,11 @@
   <body>
 
 <!--background image -->
-    <img id="background-image" src="images/chapter-5/background.png">
+    <picture>
+      <source media="(max-width: 499px)" srcset="images/chapter-5/background-mobile.png">
+      <source media="(min-width: 500px)" srcset="images/chapter-5/background.png">
+      <img id="background-image" src="images/chapter-5/background.png">
+    </picture>
 
     <header>
 
