@@ -268,7 +268,7 @@ hr {
   padding-left: 9px;
   left: 0px;
   width: 34px;
-  background: #faefe6;
+  background: pink;
   overflow: hidden;
 }
 
@@ -276,7 +276,6 @@ hr {
   width: 16px;
   top: 0;
   left: 0;
-  position: fixed;
 }
 
 #showLeft > p {
