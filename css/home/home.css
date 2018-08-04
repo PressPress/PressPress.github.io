@@ -262,19 +262,13 @@ hr {
 #showLeft {
   position: fixed;
   z-index: 13;
-  top: 10px;
-  left: 9px;
+  top: 0px;
+  bottom: 0px;
+  padding-top: 10px;
+  padding-left: 9px;
+  left: 0px;
   background: #faefe6;
   overflow: hidden;
-}
-
-#left-button{
-  position: fixed;
-  background: #faefe6;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 34px;
 }
 
 #showLeft > img {
