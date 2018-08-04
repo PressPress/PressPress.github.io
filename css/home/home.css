@@ -262,20 +262,13 @@ hr {
 #showLeft {
   position: fixed;
   z-index: 13;
-  top: 0px;
-  bottom: 0px;
-  padding-top: 10px;
-  padding-left: 9px;
-  left: 0px;
-  width: 34px;
-  background: pink;
-  overflow: hidden;
+  top: 10px;
+  left: 9px;
+  background: none;
 }
 
 #showLeft > img {
   width: 16px;
-  top: 0;
-  left: 0;
 }
 
 #showLeft > p {
@@ -291,8 +284,7 @@ hr {
 	height: 100%;
 	top: 0;
 	z-index: 3;
-  left: -350px;
-  overflow-x: hidden;
+  left: -316px;
   /*box-shadow: -5px 0px 20px #0624ff;*/
 }
 
