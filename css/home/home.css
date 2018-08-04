@@ -265,6 +265,7 @@ hr {
   top: 10px;
   left: 9px;
   background: none;
+  overflow: hidden;
 }
 
 #showLeft > img {
@@ -284,7 +285,7 @@ hr {
 	height: 100%;
 	top: 0;
 	z-index: 3;
-  left: -316px;
+  left: -350px;
   /*box-shadow: -5px 0px 20px #0624ff;*/
 }
 
