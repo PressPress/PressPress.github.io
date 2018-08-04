@@ -267,12 +267,16 @@ hr {
   padding-top: 10px;
   padding-left: 9px;
   left: 0px;
+  width: 34px;
   background: #faefe6;
   overflow: hidden;
 }
 
 #showLeft > img {
   width: 16px;
+  top: 0;
+  left: 0;
+  position: fixed;
 }
 
 #showLeft > p {
@@ -289,6 +293,7 @@ hr {
 	top: 0;
 	z-index: 3;
   left: -350px;
+  overflow-x: hidden;
   /*box-shadow: -5px 0px 20px #0624ff;*/
 }
 
