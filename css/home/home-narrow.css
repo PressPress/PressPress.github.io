@@ -1,0 +1,566 @@
+html {
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  color: white;
+  line-height: 24px;
+  letter-spacing: .001em;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #eddfe5;
+}
+
+a {
+  color: white;
+}
+
+/* EDIT THESE VALUES FOR MY PICTURE*/
+#background-image {
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+/* EDIT THESE VALUES FOR MY PICTURE*/
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  #background-image {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+
+
+
+#yellow-space-1{
+  z-index: 1;
+  width: 40%;
+  height: 215px;
+  background: linear-gradient(white, #ffeb76);
+  position: fixed;
+  top: 50%;
+  margin-left: 75px;
+}
+
+#sentiments-title-1 {
+  position: fixed;
+  bottom: 20%;
+  margin-left: 50px;
+  width: 74%;
+}
+
+#white-space-1 {
+  position: absolute;
+  width: calc(100% - 90px);
+  left: 32px;
+  background: white;
+  height: auto;
+  top: 85%;
+  padding-top: 15px;
+  z-index: 2;
+}
+
+.author-name {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-size: 1.18em;
+  letter-spacing: .01em;
+}
+
+.title {
+  margin: -20px 0 10px 20px;
+  padding-top: 30px;
+}
+
+.info-button {
+  width: 20px;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+  z-index: 900;
+}
+
+.intro {
+  width: 0px;
+  background: none;
+}
+
+.test-1 {
+  position: absolute;
+  width: 13vw;
+  z-index: 100;
+  left: 10px;
+  top: 50px;
+}
+
+.intro > p {
+  font-size: 0;
+}
+
+#intro-1, #intro-2, #intro-3,
+#intro-4, #intro-5, #intro-6,
+#intro-7, #intro-8, #intro-9,
+#intro-10, #intro-11, #intro-12,
+#intro-13, #intro-14, #intro-15,
+#intro-16, #intro-17, #intro-18,
+#intro-19, #intro-20{
+  visibility: hidden;
+}
+
+#test {
+  visibility: hidden;
+}
+
+#title-1:hover + #test {
+  visibility: visible;
+}
+
+
+/* BUTTON STYLING */
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+    /*color: #ffffff;*/
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+button:focus {
+    outline: 0px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(1);
+}
+
+
+
+
+hr {
+  margin: -30px 250px 60px 40px;
+  border: 0;
+  height: 1px;
+  background: #1414ef;
+}
+
+.smaller-text {
+  font-size: 14px;
+  padding: 0 29px 0 40px;
+  line-height: 1.3em;
+  margin-top: 10px;
+}
+
+.extra-space {
+  margin-top: 30px;
+}
+
+.less-space {
+  margin-top: -28px;
+}
+
+.little-space {
+  margin-top: 10px;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.link a{
+  font-size: 12px;
+  color: #eb7975;
+  text-decoration: underline;
+}
+
+#showLeft {
+  position: fixed;
+  z-index: 13;
+  top: 10px;
+  left: 9px;
+  background: none;
+}
+
+#showLeft > img {
+  width: 16px;
+}
+
+#showLeft > p {
+  font-size: 0;
+}
+
+.sentiments-menu {
+	position: fixed;
+	color: #1414ef;
+	background: #faefe6;
+  overflow: scroll;
+  width: 350px;
+	height: 100%;
+	top: 0;
+	z-index: 3;
+  left: -316px;
+  /*box-shadow: -5px 0px 20px #0624ff;*/
+}
+
+.sentiments-menu > p {
+  padding: 5px 34px 20px 40px;
+}
+
+.sentiments-menu-left.sentiments-menu-open {
+	left: 0px;
+}
+
+
+#showRight {
+  position: fixed;
+  z-index: 13;
+  top: 10px;
+  right: 8px;
+  background: none;
+}
+
+#showRight > img {
+  width: 16px;
+}
+
+#showRight > p {
+  font-size: 0;
+}
+
+.about-menu {
+	position: fixed;
+	color: #1414ef;
+	background: linear-gradient(white, #ffeb76);
+  overflow: scroll;
+  width: 350px;
+	height: 100%;
+	top: 0;
+	z-index: 12;
+  right: -316px;
+}
+
+.about-menu > p {
+  padding: 5px 34px 20px 40px;
+}
+
+.about-menu-right.about-menu-open {
+	right: 0px;
+}
+
+#showRight2 {
+  position: fixed;
+  z-index: 12;
+  top: 10px;
+  right: 42px;
+  background: none;
+}
+
+#showRight2 > img {
+  width: 16px;
+}
+
+#showRight2 > p {
+  font-size: 0;
+}
+
+.conference-menu {
+	position: fixed;
+	color: #1414ef;
+	background: #faefe6;
+  overflow: scroll;
+  width: 360px;
+	height: 100%;
+	top: 0;
+	z-index: 6;
+  right: -292px;
+}
+
+.conference-menu > p {
+  padding: 5px 38px 20px 34px;
+}
+
+.conference-menu-right.conference-menu-open {
+	right: 33px;
+}
+
+/* Transitions */
+
+.sentiments-menu, .about-menu, .conference-menu{
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.break {
+  height: 8px;
+}
+
+#title-1, #title-2, #title-3, #title-4, #title-5,
+#title-6, #title-7, #title-8, #title-9, #title-10,
+#title-11, #title-12, #title-13, #title-14, #title-15,
+#title-16, #title-17, #title-18, #title-19, #title-20 {
+  background-repeat: no-repeat;
+  background-size: 85%;
+  padding: 0;
+  margin-top: -30px;
+  display: block;
+}
+
+#title-1:hover, #title-2:hover, #title-3:hover, #title-4:hover, #title-5:hover,
+#title-6:hover, #title-7:hover,  #title-8:hover, #title-9:hover, #title-10:hover,
+#title-11:hover, #title-12:hover, #title-13:hover, #title-14:hover, #title-15:hover,
+#title-16:hover, #title-17:hover, #title-18:hover, #title-19:hover, #title-20:hover {
+  background-repeat: no-repeat;
+  background-size: 85%;
+  padding: 0;
+  margin-top: -30px;
+  display: block;
+}
+
+#title-1 {
+  background-image: url("images/title-1-narrow.svg");
+}
+
+#title-1:hover {
+  background-image: url("images/title-1-narrow-hover.svg");
+}
+
+#title-2 {
+  background-image: url("images/title-2-narrow.svg");
+}
+
+#title-2:hover {
+  background-image: url("images/title-2-narrow-hover.svg");
+}
+
+#title-3 {
+  background-image: url("images/title-3-narrow.svg");
+  margin-top: -40px;
+}
+
+#title-3:hover {
+  background-image: url("images/title-3-narrow-hover.svg");
+  margin-top: -40px;
+}
+
+#title-4 {
+  background-image: url("images/title-4-narrow.svg");
+}
+
+#title-4:hover {
+  background-image: url("images/title-4-narrow-hover.svg");
+}
+
+#title-5 {
+  background-image: url("images/title-5-narrow.svg");
+  margin-top: -20px;
+}
+
+#title-5:hover {
+  background-image: url("images/title-5-narrow-hover.svg");
+  margin-top: -20px;
+}
+
+#title-6 {
+  background-image: url("images/title-6-narrow.svg");
+  margin-top: -20px;
+}
+
+#title-6:hover {
+  background-image: url("images/title-6-narrow.svg");
+  margin-top: -20px;
+}
+
+#title-7 {
+  background-image: url("images/title-7-narrow.svg");
+  margin-top: -30px;
+}
+
+#title-7:hover {
+  background-image: url("images/title-7-narrow.svg");
+  margin-top: -30px;
+}
+
+#title-8 {
+  background-image: url("images/title-8-narrow.svg");
+  margin-top: -15px;
+}
+
+#title-8:hover {
+  background-image: url("images/title-8-narrow.svg");
+  margin-top: -15px;
+}
+
+#title-9 {
+  background-image: url("images/title-9-narrow.svg");
+  margin-top: -20px;
+}
+
+#title-9:hover {
+  background-image: url("images/title-9-narrow.svg");
+  margin-top: -20px;
+}
+
+#title-10 {
+  background-image: url("images/title-10-narrow.svg");
+  margin-top: -30px;
+}
+
+#title-10:hover {
+  background-image: url("images/title-10-narrow.svg");
+  margin-top: -30px;
+}
+
+#title-11 {
+  background-image: url("images/title-11-narrow.svg");
+  margin-top: -25px;
+}
+
+#title-11:hover {
+  background-image: url("images/title-11-narrow.svg");
+  margin-top: -25px;
+}
+
+#title-12 {
+  background-image: url("images/title-12-narrow.svg");
+  margin-top: -25px;
+}
+
+#title-12:hover {
+  background-image: url("images/title-12-narrow.svg");
+  margin-top: -25px;
+}
+
+#title-13 {
+  background-image: url("images/title-13-narrow.svg");
+  margin-top: -25px;
+}
+
+#title-13:hover {
+  background-image: url("images/title-13-narrow.svg");
+  margin-top: -25px;
+}
+
+#title-14 {
+  background-image: url("images/title-14-narrow.svg");
+  margin-top: -25px;
+}
+
+#title-14:hover {
+  background-image: url("images/title-14-narrow.svg");
+  margin-top: -25px;
+}
+
+#title-15 {
+  background-image: url("images/title-15-narrow.svg");
+  margin-top: -30px;
+}
+
+#title-15:hover {
+  background-image: url("images/title-15-narrow.svg");
+  margin-top: -30px;
+}
+
+#title-16 {
+  background-image: url("images/title-16-narrow.svg");
+  margin-top: -20px;
+}
+
+#title-16:hover {
+  background-image: url("images/title-16-narrow.svg");
+  margin-top:  -20px;
+}
+
+#title-17 {
+  background-image: url("images/title-17-narrow.svg");
+  margin-top: -25px;
+}
+
+#title-17:hover {
+  background-image: url("images/title-17-narrow.svg");
+  margin-top: -25px;
+}
+
+#title-18 {
+  background-image: url("images/title-18-narrow.svg");
+  margin-top: -15px;
+}
+
+#title-18:hover {
+  background-image: url("images/title-18-narrow.svg");
+  margin-top: -15px;
+}
+
+#title-19 {
+  background-image: url("images/title-19-narrow.svg");
+  margin-top: -15px;
+}
+
+#title-19:hover {
+  background-image: url("images/title-19-narrow.svg");
+  margin-top: -15px;
+}
+
+#title-20 {
+  background-image: url("images/title-20-narrow.svg");
+  margin-top: -30px;
+}
+
+#title-20:hover {
+  background-image: url("images/title-20-narrow.svg");
+  margin-top:  -30px;
+}
+
+.tumblr {
+  margin-top: -30px;
+}
+
+.little-rule {
+  margin-right: 275px;
+  margin-top: -25px;
+  margin-bottom: -10px;
+  border: 0;
+  height: 1px;
+  background: #1414ef;
+}
+
+.sentiments-menu a {
+  color: #1414ef;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.sentiments-menu a:hover{
+  color: #eb7975;
+}
+
+.smaller-text-1 {
+  font-size: 14px;
+  padding: 0 29px 0 40px;
+  line-height: 1.3em;
+  margin-top: -25px;
+}
