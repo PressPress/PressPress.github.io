@@ -121,7 +121,7 @@ a {
 
 
 .intro {
-  background-color: #fec7c8;
+  background: linear-gradient(#ffeb76, white);
   width: calc(34% - 150px);
   position: fixed;
   right: 58px;
