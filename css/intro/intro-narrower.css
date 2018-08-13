@@ -138,7 +138,8 @@ button:active {
 #white-space-2 {
   background: white;
   width: 101%;
-  padding-left: 5px;
+  padding-left: 8px;
+  margin-left: -8px;
   right: 0;
   height: auto;
   margin-top: 40px;
@@ -194,7 +195,8 @@ button:active {
 #white-space-3 {
   background: white;
   width: 101%;
-  padding-left: 5px;
+  padding-left: 8px;
+  margin-left: -8px;
   height: auto;
   right: 0;
   margin-top: 40px;
