@@ -42,18 +42,6 @@ a {
   }
 }
 
-@media screen and (max-width: 500px) { /* Specific to this particular image */
-  #background-image {
-    width: 50%;
-    height: auto;
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-    top: -50px;
-  }
-}
-
-
-
 
 
 #yellow-space-1{
