@@ -89,17 +89,14 @@ button:active {
 #white-space-1 {
   background: white;
   width: 101%;
-  left: 0;
-  right: 0;
-  height: auto;
-  margin-top: 40px;
-  padding-bottom: 40px;
-  padding-top: 50px;
-  z-index: 10;
-  position: relative;
-  padding-left: 12px;
+  padding-left: 8px;
   margin-left: -8px;
-  padding-right: 10px;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -35px;
+  padding-bottom: 40px;
+  padding-top: 30px;
 }
 
 #intro-text {
@@ -128,7 +125,7 @@ button:active {
 #white-space-2 {
   background: white;
   width: 101%;
-  padding-left: 12px;
+  padding-left: 8px;
   margin-left: -8px;
   height: auto;
   margin-left: 0;
@@ -136,7 +133,6 @@ button:active {
   margin-top: -35px;
   padding-bottom: 40px;
   padding-top: 30px;
-  padding-right: 4px;
 }
 
 
