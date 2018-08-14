@@ -91,11 +91,23 @@ button:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: -55px;
+  overflow: visible;
+  padding-left: 250px;
+  width: 37%;
+  z-index: 1000;
+}
+
+#subtitle-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: -25px;
   overflow: visible;
   margin-bottom: 10px;
-  padding-left: 250px;
-  width: 37%;
+  padding-left: 120px;
+  width: 49%;
   z-index: 1000;
 }
 
@@ -162,7 +174,6 @@ button:active {
   padding-bottom: 40px;
   padding-top: 30px;
   z-index: 0;
-  position: relative;
 }
 
 
@@ -221,7 +232,6 @@ button:active {
   padding-bottom: 40px;
   padding-top: 50px;
   z-index: 10;
-  position: relative;
 }
 
 a {

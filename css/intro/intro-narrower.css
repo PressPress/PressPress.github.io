@@ -83,18 +83,27 @@ button:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+  margin-top: 100px;
   overflow: visible;
   width: 95%;
-  margin-bottom: -100px;
+  margin-bottom: 35px;
 }
 
 #subtitle {
   display: block;
+  margin-top: 0px;
+  overflow: visible;
+  margin-bottom: -45px;
+  width: 60%;
+  margin-left: calc(-200px + 15%);
+}
+
+#subtitle-1 {
+  display: block;
   margin-top: -45%;
   overflow: visible;
   margin-bottom: 160px;
-  width: 55%;
+  width: 0;
 }
 
 #subtitle-2 {

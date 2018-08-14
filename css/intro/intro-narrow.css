@@ -85,17 +85,28 @@ button:active {
   margin-top: 100px;
   overflow: visible;
   width: 87%;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 
 #subtitle {
   display: block;
-  margin-left: -22%;
-  margin-right: auto;
-  margin-top: -54%;
+  margin-left: -10%;
+  margin-top: 0px;
   overflow: visible;
-  margin-bottom: 250px;
-  width: 48%;
+  margin-bottom: -50px;
+  width: 50%;
+}
+
+#subtitle-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+  overflow: visible;
+  margin-bottom: 10px;
+  padding-left: 120px;
+  width: 0;
+  z-index: 1000;
 }
 
 #subtitle-2 {
@@ -168,7 +179,6 @@ button:active {
   padding-bottom: 40px;
   padding-top: 30px;
   z-index: 0;
-  position: relative;
 }
 
 
@@ -227,7 +237,6 @@ button:active {
   padding-bottom: 40px;
   padding-top: 50px;
   z-index: 10;
-  position: relative;
 }
 
 a {
