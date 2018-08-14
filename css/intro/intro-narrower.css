@@ -93,7 +93,7 @@ button:active {
   display: block;
   margin-top: 0px;
   overflow: visible;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
   width: 60%;
   margin-left: calc(-200px + 15%);
 }
