@@ -97,7 +97,7 @@ button:active {
   padding-top: 50px;
   z-index: 10;
   position: relative;
-  padding-left: 8px;
+  padding-left: 12px;
   margin-left: -8px;
   padding-right: 10px;
 }
@@ -128,7 +128,7 @@ button:active {
 #white-space-2 {
   background: white;
   width: 101%;
-  padding-left: 8px;
+  padding-left: 12px;
   margin-left: -8px;
   height: auto;
   margin-left: 0;
