@@ -232,16 +232,20 @@ hr {
   margin-top: -25px;
 }
 
-.program-heading {
-  font-size: 14px;
-  padding: 0 29px 0 40px;
-  line-height: 1.3em;
-  margin-top: 15px;
+.upcoming {
+  position: relative;
+  width: 265px;
+  left: 40px;
+  top: 115px;
   margin-bottom: 15px;
-  
-  border-radius: 25px;
-  border: 2px solid #1414ef;
-  z-index: 10;
+}
+
+.past {
+  position: relative;
+  width: 265px;
+  left: 40px;
+  margin-top: -20px;
+  margin-bottom: 40px;
 }
 
 .extra-space {
