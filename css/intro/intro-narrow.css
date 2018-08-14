@@ -125,12 +125,7 @@ button:active {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 720px) {
-  #subtitle {
-    margin-left: -210px;
-    margin-top: -58%;
-  }
-}
+
 
 #section-1-space {
   background: #fec7c8;
