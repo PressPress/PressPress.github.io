@@ -238,7 +238,10 @@ hr {
   line-height: 1.3em;
   margin-top: 15px;
   margin-bottom: 15px;
-  color: #fdc7c9;
+  
+  border-radius: 25px;
+  border: 2px solid #1414ef;
+  z-index: 10;
 }
 
 .extra-space {
