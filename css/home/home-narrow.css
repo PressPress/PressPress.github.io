@@ -390,7 +390,7 @@ hr {
 }
 
 #title-6:hover {
-  background-image: url("images/title-6-narrow.svg");
+  background-image: url("images/title-6-narrow-hover.svg");
   margin-top: -20px;
 }
 
@@ -400,7 +400,7 @@ hr {
 }
 
 #title-7:hover {
-  background-image: url("images/title-7-narrow.svg");
+  background-image: url("images/title-7-narrow-hover.svg");
   margin-top: -30px;
 }
 
@@ -410,7 +410,7 @@ hr {
 }
 
 #title-8:hover {
-  background-image: url("images/title-8-narrow.svg");
+  background-image: url("images/title-8-narrow-hover.svg");
   margin-top: -15px;
 }
 
@@ -420,7 +420,7 @@ hr {
 }
 
 #title-9:hover {
-  background-image: url("images/title-9-narrow.svg");
+  background-image: url("images/title-9-narrow-hover.svg");
   margin-top: -20px;
 }
 
@@ -430,7 +430,7 @@ hr {
 }
 
 #title-10:hover {
-  background-image: url("images/title-10-narrow.svg");
+  background-image: url("images/title-10-narrow-hover.svg");
   margin-top: -30px;
 }
 

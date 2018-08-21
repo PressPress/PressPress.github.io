@@ -600,3 +600,8 @@ hr {
 .about-menu-right.about-menu-open {
 	right: 0px;
 }
+
+.not-this {
+  text-decoration: line-through;
+  text-decoration-color: #eb7975;
+}

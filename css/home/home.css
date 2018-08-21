@@ -479,20 +479,41 @@ hr {
   background-image: url("images/title-6.svg");;
 }
 
+#title-6:hover  {
+  background-image: url("images/title-6-hover.svg");;
+}
+
 #title-7 {
   background-image: url("images/title-7.svg");;
 }
 
+#title-7:hover {
+  background-image: url("images/title-7-hover.svg");;
+}
+
+
 #title-8 {
   background-image: url("images/title-8.svg");;
+}
+
+#title-8:hover {
+  background-image: url("images/title-8-hover.svg");;
 }
 
 #title-9 {
   background-image: url("images/title-9.svg");;
 }
 
+#title-9:hover {
+  background-image: url("images/title-9-hover.svg");;
+}
+
 #title-10 {
   background-image: url("images/title-10.svg");;
+}
+
+#title-10:hover {
+  background-image: url("images/title-10-hover.svg");;
 }
 
 #title-11 {
