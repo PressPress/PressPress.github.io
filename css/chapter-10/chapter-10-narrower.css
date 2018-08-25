@@ -410,7 +410,7 @@ button:active {
   margin-right: -1%;
   overflow: visible;
   z-index: 1000;
-  margin-bottom: -50px;
+  margin-bottom: 0px;
 }
 
 #section-5-3 {
