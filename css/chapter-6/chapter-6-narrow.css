@@ -134,7 +134,7 @@ button:active {
 
 .kimi-name {
   font-family: 'Crimson Text', serif;
-  font-size: .93em;
+  font-size: 0em;
   letter-spacing: .01em;
   line-height: 0em;
   color: #1414ef;
@@ -150,7 +150,7 @@ button:active {
 
 .kimi-initials {
   font-family: 'Crimson Text', serif;
-  font-size: 0em;
+  font-size: .93em;
   letter-spacing: .01em;
   line-height: 0em;
   color: #1414ef;
@@ -166,7 +166,7 @@ button:active {
 
 .mina-name {
   font-family: 'Crimson Text', serif;
-  font-size: .93em;
+  font-size: 0em;
   letter-spacing: .01em;
   line-height: 0em;
   color: #1414ef;
@@ -182,13 +182,13 @@ button:active {
 
 .mina-initials {
   font-family: 'Crimson Text', serif;
-  font-size: 0;
+  font-size: .93em;
   letter-spacing: .01em;
   line-height: 0em;
   color: #1414ef;
   float: left;
   display: block;
-  padding-left: 25%;
+  padding-left: 18%;
   margin-bottom: -45px;
   position: -webkit-sticky;
   position: sticky;
