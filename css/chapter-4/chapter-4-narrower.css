@@ -480,7 +480,7 @@ hr {
   position: fixed;
   z-index: 201;
   top: 0px;
-  background: white;
+  background: linear-gradient(to left, white, #ffeb76);
   width: 100%;
   left: 0px;
   right: 0px;
@@ -505,7 +505,7 @@ hr {
 .sentiments-menu {
 	position: fixed;
 	color: #1414ef;
-	background: white;
+	background: linear-gradient(to left, white, #ffeb76);
   overflow: scroll;
   width: 100%;
 	height: 100%;
@@ -558,7 +558,7 @@ hr {
   top: 34px;
   right: 0;
   left: 0;
-  background: linear-gradient(to left, white, #ffeb76);
+  background: #faefe6;
   height: 34px;
   width: 100%;
 }
@@ -576,7 +576,7 @@ hr {
 .about-menu {
   position: fixed;
 	color: #1414ef;
-	background: linear-gradient(to left, white, #ffeb76);
+	background: #faefe6;
   overflow: scroll;
   width: 100%;
 	height: 100%;
