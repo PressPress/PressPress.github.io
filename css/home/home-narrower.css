@@ -42,7 +42,12 @@ a {
   }
 }
 
-
+#pplink {
+  position: fixed;
+  top: 9px;
+  left: 9px;
+  z-index: 5000;
+}
 
 #yellow-space-1{
   z-index: 1;

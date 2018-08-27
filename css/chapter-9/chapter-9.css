@@ -64,6 +64,7 @@ button:active {
 }
 
 
+
 .title {
   display: block;
   margin-left: auto;
@@ -603,4 +604,8 @@ hr {
 .not-this {
   text-decoration: line-through;
   text-decoration-color: #eb7975;
+}
+
+.pplink {
+  text-decoration: underline;
 }
