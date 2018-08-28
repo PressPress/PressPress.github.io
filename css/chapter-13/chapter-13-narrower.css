@@ -1,0 +1,531 @@
+html {
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  color: white;
+  line-height: 24px;
+  letter-spacing: .001em;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #feea80;
+  left: 0;
+  right: 0;
+  overflow-x: hidden;
+}
+
+/* EDIT THESE VALUES FOR MY PICTURE*/
+#background-image {
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+/* EDIT THESE VALUES FOR MY PICTURE*/
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  #background-image {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+/* BUTTON STYLING */
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+    /*color: #ffffff;*/
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:focus {
+    outline: 0px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(1);
+}
+
+
+#sentiments-link {
+  position: fixed;
+  z-index: 13;
+  top: 10px;
+  right: 8px;
+  background: none;
+}
+
+.container-1 {
+  height: 500px;
+}
+
+
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  overflow: visible;
+  width: 90%;
+}
+
+#subtitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  overflow: visible;
+  margin-bottom: 50px;
+  padding-left: 10%;
+  width: 80%;
+  z-index: 1000;
+}
+
+#subtitle-2 {
+  margin-left: 31.5%;
+  overflow: visible;
+  width: 37%;
+  z-index: 1000;
+  margin-top: 50px;
+}
+
+#subtitle-3 {
+  margin-left: 31.5%;
+  overflow: visible;
+  width: 37%;
+  z-index: 1000;
+  margin-top: 50px;
+}
+
+#section-1-space {
+  background: #fec7c8;
+  width: 50%;
+  max-width: 900px;
+  height: auto;
+  margin-left: calc(50% - 200px);
+  margin-right: calc(50% - 200px);
+  margin-top: 100px;
+  padding-bottom: 40px;
+  z-index: 2;
+
+  position: sticky;
+  position: -webkit-sticky;
+  top: 30%;
+  margin-bottom: -70px;
+}
+
+#section-1 {
+  width: 68%;
+  margin-left: 7%;
+  margin-top: 7%;
+  z-index: -1;
+}
+
+
+#section-title-1 {
+  width: 60%;
+  max-width: 1150px;
+  display: block;
+  margin-left: auto;
+  margin-right: 22%;
+  margin-top: 40px;
+  margin-bottom: -105px;
+}
+
+
+#white-space-2 {
+  background: white;
+  width: 101%;
+  padding-left: 8px;
+  margin-left: -8px;
+  max-width: 1000px;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -10px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+
+.body-text {
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: .002em;
+  color: #1414ef;
+  width: 80%;
+  transform: translateX(11%);
+}
+
+
+.line-break {
+  height: 10px;
+}
+
+.line-break-big {
+  height: 50px;
+}
+
+.container-2 {
+  height: 1000px;
+}
+
+#section-2-space {
+  background: #fec7c8;
+  width: 60%;
+  max-width: 900px;
+  height: auto;
+  margin-left: auto;
+  margin-right: 22%;
+  margin-top: 100px;
+  padding-bottom: 40px;
+  z-index: 0;
+
+  position: sticky;
+  position: -webkit-sticky;
+  top: 30%;
+  margin-bottom: -70px;
+}
+
+#section-2 {
+  width: 80%;
+  margin-left: 7%;
+  margin-top: 7%;
+  z-index: -1;
+}
+
+#white-space-3 {
+  background: white;
+  width: 101%;
+  padding-left: 8px;
+  margin-left: -8px;
+  max-width: 1000px;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -10px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+a {
+  color: #eb7975;
+}
+
+
+#bottom-padding {
+  height: 300px;
+}
+
+
+.footnote {
+  font-family: 'Karla', sans-serif;
+  font-size: .63em;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: .0005em;
+  color: #1414ef;
+  z-index: 10;
+}
+
+sup {
+  font-family: 'Karla', sans-serif;
+  font-size: .59em;
+  font-weight: 600;
+  line-height: 1.4em;
+  color: #eb7975;
+  text-decoration: underline;
+  z-index: 9;
+}
+
+.foot-sup {
+  font-size: 1em;
+  margin-left: -7px;
+  text-decoration: none;
+  z-index: 9;
+}
+
+
+#green-box-1, #green-box-2, #green-box-3, #green-box-4,
+#green-box-5, #green-box-6, #green-box-7, #green-box-8, #green-box-9 {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  margin-top: -7px;
+  background: white;
+  padding: 12px 16px 15px 18px;
+  display: none;
+  margin-left: calc(50% - 100px);
+
+  border-radius: 25px;
+  border: 2px solid #1414ef;
+  z-index: 10;
+
+}
+
+#green-box-4 {
+  width: 350px;
+  margin-left: 10%;
+  z-index: 10;
+}
+
+.super {
+  position: absolute;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.4em;
+  color: #eb7975;
+  text-decoration: underline;
+  padding: 10px;
+  background: none;
+  margin: -10px 0px 0px -13px;
+}
+
+
+/* MENU JUNK */
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #1414ef;
+  width: auto;
+  /*margin-left: calc(50% - 150px);*/
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.little-rule {
+  margin-right: 35px;
+  margin-top: -25px;
+  margin-bottom: -10px;
+  border: 0;
+  height: 1px;
+  background: #1414ef;
+}
+
+#numbers {
+  width: 0;
+  font-size: 0;
+}
+
+.item {
+  max-width: 50%;
+}
+
+.top {
+  align-self: flex-start;
+  margin-left: 15px;
+}
+
+.bottom {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.this-chapter {
+  color: #eb7975;
+}
+
+#showLeft {
+  position: fixed;
+  z-index: 201;
+  top: 0px;
+  background: linear-gradient(to left, white, #ffeb76);
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  height: 34px;
+}
+
+#showLeft > img {
+  width: 0px;
+}
+
+#showLeft > p {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: #1414ef;
+  font-weight: 700;
+  line-height: 0px;
+  margin: 0px;
+  margin-top: -21px;
+  /*margin-left: calc()-80%;*/
+}
+
+.sentiments-menu {
+	position: fixed;
+	color: #1414ef;
+	background: linear-gradient(to left, white, #ffeb76);
+  overflow: scroll;
+  width: 100%;
+	height: 100%;
+	left: 0;
+  right: 0;
+	z-index: 200;
+  top: calc(-100% + 34px);
+}
+
+.tumblr {
+  margin-top: -30px;
+}
+
+.sentiments-menu > p {
+    padding: 5px 34px 20px 40px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+.sentiments-menu a {
+  color: #1414ef;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.sentiments-menu a:hover{
+  color: #eb7975;
+}
+
+.sentiments-menu-left.sentiments-menu-open {
+	top: 0px;
+}
+
+.sentiments-menu, .about-menu {
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+#smaller-text {
+  font-size: 14px;
+  padding: 12px 29px 20px 40px;
+  line-height: 1.3em;
+}
+
+#showRight {
+  position: fixed;
+  z-index: 200;
+  top: 34px;
+  right: 0;
+  left: 0;
+  background: #faefe6;
+  height: 34px;
+  width: 100%;
+}
+
+#showRight > p {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: #1414ef;
+  font-weight: 700;
+  line-height: 0px;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.about-menu {
+  position: fixed;
+	color: #1414ef;
+	background: #faefe6;
+  overflow: scroll;
+  width: 100%;
+	height: 100%;
+	left: 0;
+  right: 0;
+	z-index: 75;
+  top: calc(-100% + 68px);
+}
+
+.about-menu a {
+  color: #1414ef;
+  text-decoration: none;
+}
+
+.about-menu a:hover{
+  color: #eb7975;
+}
+
+.about-menu > p {
+  color: #1414ef;
+  font-family: 'Karla', sans-serif;
+  font-size: .8em;
+  font-weight: 700;
+  line-height: 1.4em;
+  text-align: center;
+  margin: -20px 0 -20px 0;
+}
+
+.right-arrow {
+  width: 0;
+}
+
+.about-menu > p {
+  padding: 5px 34px 20px 40px;
+}
+
+.about-menu-right.about-menu-open {
+	top: 68px;
+}
+
+main {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 400px) {
+  main {
+    margin-left: -8px;
+  }
+}
+
+br {
+  height: 20px;
+}
+
+#mina-art-1 {
+  margin-left: 5%;
+  width: 110%;
+}
+
+.caption, .caption-1, .caption-2 {
+  font-family: 'Karla', sans-serif;
+  font-size: .58em;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: .0005em;
+  color: #1414ef;
+}
+
+.caption {
+  padding-left: calc(35% - 3px);
+  margin-right: -20px;
+  margin-top: 8px;
+}
+
+.not-this {
+  text-decoration: line-through;
+  text-decoration-color: #eb7975;
+}
