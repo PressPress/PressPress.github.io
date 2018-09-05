@@ -245,6 +245,14 @@ hr {
   margin-bottom: 15px;
 }
 
+#bios {
+  position: relative;
+  width: 265px;
+  left: 40px;
+  top: 30px;
+  margin-bottom: 15px;
+}
+
 #past {
   position: relative;
   width: 265px;
