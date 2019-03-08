@@ -260,15 +260,15 @@ hr {
 	color: #1414ef;
 	background: linear-gradient(white, #ffeb76);
   overflow: scroll;
-  width: 350px;
+  width: 85%;
 	height: 100%;
 	top: 0;
 	z-index: 12;
-  right: -316px;
+  right: calc(-85% + 34px);
 }
 
 .about-menu > p {
-  padding: 5px 34px 20px 40px;
+  padding: 5px 34px 20px 0px;
 }
 
 .about-menu-right.about-menu-open {
@@ -568,4 +568,18 @@ hr {
   padding: 0 29px 0 40px;
   line-height: 1.3em;
   margin-top: -25px;
+}
+
+/* -------- SLIDESHOW ----------- */
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  /*left: 42px;*/
 }

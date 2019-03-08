@@ -293,7 +293,7 @@ hr {
 }
 
 .about-menu > p {
-  padding: 5px 34px 20px 40px;
+  padding: 5px 34px 20px 0px;
 }
 
 .about-menu-right.about-menu-open {
@@ -581,4 +581,10 @@ hr {
   padding: 0 29px 0 40px;
   line-height: 1.3em;
   margin-top: -25px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 40px;
+  border-radius: 3px 0 0 3px;
 }

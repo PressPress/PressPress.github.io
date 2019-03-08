@@ -237,12 +237,12 @@ hr {
   margin-top: -25px;
 }
 
-#upcoming {
+/**/#press {
   position: relative;
   width: 265px;
-  left: 40px;
-  top: 100px;
-  margin-bottom: 15px;
+  left: 10%;
+  margin-top: 60px;
+  margin-bottom: 45px;
 }
 
 #bios {
@@ -253,12 +253,12 @@ hr {
   margin-bottom: 15px;
 }
 
-#past {
+/**/#events {
   position: relative;
   width: 265px;
-  left: 40px;
-  margin-top: -20px;
-  margin-bottom: 40px;
+  left: 10%;
+  top: 150px;
+  margin-bottom: 15px;
 }
 
 .extra-space {
@@ -358,15 +358,20 @@ hr {
 	color: #1414ef;
 	background: linear-gradient(white, #ffeb76);
   overflow: scroll;
-  width: 350px;
+  width: 630px;
 	height: 100%;
 	top: 0;
 	z-index: 12;
-  right: -316px;
+  right: -596px;
+  padding-left: 40px;
 }
 
 .about-menu > p {
-  padding: 5px 34px 20px 40px;
+  padding: 5px 120px 20px 0px;
+}
+
+.about-menu a {
+  color: blue ;
 }
 
 .about-menu-right.about-menu-open {
@@ -621,3 +626,63 @@ hr {
   height: 1px;
   background: #1414ef;
 }
+
+.tiny-rule {
+  margin-right: 570px;
+  margin-left: 0px;
+  margin-top: -50px;
+  margin-bottom: 40px;
+  border: 0;
+  height: 1px;
+  background: #1414ef;
+}
+
+.about-menu > .little-rule {
+  width: 50px;
+  height: 1px;
+  margin-bottom: 25px;
+  margin-top: -10px;
+  margin-left: 0;
+}
+
+
+/* -------- SLIDESHOW ----------- */
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  /*left: 42px;*/
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 55px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color
+.prev:hover, .next:hover {
+  color: #1928eb;
+} */
